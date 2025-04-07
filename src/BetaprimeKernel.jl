@@ -2,25 +2,28 @@ using KernelFunctions
 using LinearAlgebra
 using Revise
 using SpecialFunctions  # Add this import for gamma function
-
+using BenchmarkTools
 include("mmd.jl")  # Assuming mmd.jl contains the MMD function
 
-struct BetaPrimeKernel{T<:Real} <: KernelFunctions.Kernel
-    α::T
+struct BetaPrimeKernel{T} <: KernelFunctions.Kernel
+    α::T # parameter α denoting a selection from the class of beta prime kernels
     gamma_cache::Dict{Int,Float64}  # Cache for storing precomputed gamma values
 
     function BetaPrimeKernel(α::T=1.0) where {T<:Real}
         # Ensure α is valid (typically α > N-1 where N is matrix dimension)
         # This will be checked at evaluation time since we don't know N here
-        new{T}(α)
+        # new{T}(α)
         new{T}(α, Dict{Int,Float64}())
     end
 end
 
 # Helper function to compute special gamma function for SPD matrices
 function cone_gamma(N::Int, alpha::Real)
-    return exp(N*(N-1)/2 * log(2π) + sum(log.(gamma.(alpha .- collect(0:N-1) .+ 1))))
+    return exp(N*(N-1)/2 * log(2*π) + sum(log.(gamma.(alpha .- collect(0:N-1) .+ 1))))
 end
+
+
+@btime cone_gamma(6, 7)
 
 # Implementation of the kernel function
 function (k::BetaPrimeKernel)(A::Matrix{<:Real}, B::Matrix{<:Real})
@@ -83,7 +86,7 @@ end
 
 # Example usage:
 # Create the kernel
-bp_kernel = BetaPrimeKernel(5.0)  # α = 5.0
+bp_kernel = BetaPrimeKernel(3.0)  # α = 5.0
 
 # Generate some SPD matrices for testing
 function generate_spd_matrix(n)
@@ -97,8 +100,7 @@ matrices_X = [generate_spd_matrix(n) for _ in 1:10]
 matrices_Y = [generate_spd_matrix(n) for _ in 1:10]
 
 function MMD(X, Y; sigma=1.0, kernel=GaussianKernel())
-    # X and Y are the two distributions
-    # sigma is the bandwidth of the Gaussian kernel
+    # X and Y are the two distributions    # sigma is the bandwidth of the Gaussian kernel
     # The function returns the MMD value
     # Compute the Gram matrix for X using the specified kernel
     K_X = kernel.(X, X)
@@ -110,10 +112,13 @@ function MMD(X, Y; sigma=1.0, kernel=GaussianKernel())
     K_XY = kernel.(X, Y)
     
     # Compute the MMD value
-    mmd_value = mean(K_X) + mean(K_Y) - 2 * mean(K_XY)
+    # mmd_value = mean(K_X) + mean(K_Y) - 2 * mean(K_XY)
+    mmd_value = 1/N^2 * ∑_{i, i}(K_X) + 1/M^2 * ∑_{j, j}(K_Y) - 2 * 1/(N * M) * ∑_{i, j}(K_XY)  # TODO: Make this work
     return mmd_value
 end
 
-
+print("Testing BetaPrimeKernel with MMD...\n")
+bp_kernel = BetaPrimeKernel(3.0)  # α = 5.0
+bp_kernel_value = bp_kernel.(matrices_X, matrices_X)  # Test with first matrices
 # Use with your MMD function
 mmd_value = MMD(matrices_X, matrices_Y; kernel=BetaPrimeKernel())
