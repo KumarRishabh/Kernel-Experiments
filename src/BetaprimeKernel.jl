@@ -5,6 +5,7 @@ using SpecialFunctions  # Add this import for gamma function
 using BenchmarkTools
 include("mmd.jl")  # Assuming mmd.jl contains the MMD function
 
+# TODO: Register the kernel with KernelFunctions.jl
 struct BetaPrimeKernel{T} <: KernelFunctions.Kernel
     α::T # parameter α denoting a selection from the class of beta prime kernels
     gamma_cache::Dict{Int,Float64}  # Cache for storing precomputed gamma values

@@ -1,0 +1,19 @@
+name: kernel-experiments
+channels:
+  - conda-forge
+  # - defaults
+dependencies:
+  - python=3.8
+  - scipy=1.10.1         # or whichever version you need
+  # - vedo
+  - pytorch                # you may need to specify the correct pytorch version for your CUDA
+  # - geoopt
+  # - POT
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      # - python-optimal-transport 
+      - pyriemann
+      - vedo
+      - geoopt
