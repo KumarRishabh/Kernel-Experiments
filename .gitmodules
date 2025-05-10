@@ -1,0 +1,3 @@
+[submodule "experiments/experiments/SPDSW"]
+	path = experiments/experiments/SPDSW
+	url = https://github.com/clbonet/SPDSW.git
