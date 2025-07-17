@@ -1,0 +1,14 @@
+{"time":"2025-07-16T12:43:53.966717+08:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T12:43:54.603075+08:00","level":"INFO","msg":"stream: created new stream","id":"eseeekfx"}
+{"time":"2025-07-16T12:43:54.605506+08:00","level":"INFO","msg":"stream: started","id":"eseeekfx"}
+{"time":"2025-07-16T12:43:54.606568+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"eseeekfx"}
+{"time":"2025-07-16T12:43:54.606461+08:00","level":"INFO","msg":"handler: started","stream_id":"eseeekfx"}
+{"time":"2025-07-16T12:43:54.610489+08:00","level":"INFO","msg":"sender: started","stream_id":"eseeekfx"}
+{"time":"2025-07-16T12:43:55.283317+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-07-16T12:43:59.541682+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T12:44:04.948173+08:00","level":"INFO","msg":"stream: closing","id":"eseeekfx"}
+{"time":"2025-07-16T12:44:06.559533+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T12:44:06.873935+08:00","level":"INFO","msg":"sender: closed","stream_id":"eseeekfx"}
+{"time":"2025-07-16T12:44:06.8749+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"eseeekfx"}
+{"time":"2025-07-16T12:44:06.874909+08:00","level":"INFO","msg":"handler: closed","stream_id":"eseeekfx"}
+{"time":"2025-07-16T12:44:06.875013+08:00","level":"INFO","msg":"stream: closed","id":"eseeekfx"}

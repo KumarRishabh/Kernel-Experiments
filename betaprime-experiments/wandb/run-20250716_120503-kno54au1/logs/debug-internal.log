@@ -1,0 +1,16 @@
+{"time":"2025-07-16T12:05:03.536551+08:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T12:05:04.227201+08:00","level":"INFO","msg":"stream: created new stream","id":"kno54au1"}
+{"time":"2025-07-16T12:05:04.227483+08:00","level":"INFO","msg":"stream: started","id":"kno54au1"}
+{"time":"2025-07-16T12:05:04.227855+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"kno54au1"}
+{"time":"2025-07-16T12:05:04.227808+08:00","level":"INFO","msg":"handler: started","stream_id":"kno54au1"}
+{"time":"2025-07-16T12:05:04.228113+08:00","level":"INFO","msg":"sender: started","stream_id":"kno54au1"}
+{"time":"2025-07-16T12:05:04.548784+08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2025-07-16T12:05:04.550499+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-07-16T12:05:06.641913+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T12:05:10.7039+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T12:05:10.714655+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-2, summary, console lines 0-0","runtime_seconds":0.010149084}],"total_operations":1}}
+{"time":"2025-07-16T12:05:11.077962+08:00","level":"INFO","msg":"stream: closing","id":"kno54au1"}
+{"time":"2025-07-16T12:05:11.078007+08:00","level":"INFO","msg":"sender: closed","stream_id":"kno54au1"}
+{"time":"2025-07-16T12:05:11.078181+08:00","level":"INFO","msg":"handler: closed","stream_id":"kno54au1"}
+{"time":"2025-07-16T12:05:11.078212+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kno54au1"}
+{"time":"2025-07-16T12:05:11.078233+08:00","level":"INFO","msg":"stream: closed","id":"kno54au1"}

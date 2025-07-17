@@ -1,0 +1,9 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 16, in preprocess_and_upload_training_data
+  File "/Users/rishabhkumar/Kernel-Experiments/betaprime-experiments/src/helpers/datautils/datautils.py", line 64, in single_signal_cov_calculator
+    cov_matrix = X @ X.T  # Sample covariance matrix
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 22 is different from 1000)
+[34m[1mwandb[0m: wandb.init() called while a run is active and reinit is set to 'default', so returning the previous run.
+[34m[1mwandb[0m:   1 of 1 files downloaded.

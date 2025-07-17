@@ -1,0 +1,16 @@
+{"time":"2025-07-16T12:05:39.913838+08:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T12:05:40.969977+08:00","level":"INFO","msg":"stream: created new stream","id":"um9lnam6"}
+{"time":"2025-07-16T12:05:40.970014+08:00","level":"INFO","msg":"stream: started","id":"um9lnam6"}
+{"time":"2025-07-16T12:05:40.970054+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"um9lnam6"}
+{"time":"2025-07-16T12:05:40.970112+08:00","level":"INFO","msg":"handler: started","stream_id":"um9lnam6"}
+{"time":"2025-07-16T12:05:40.970129+08:00","level":"INFO","msg":"sender: started","stream_id":"um9lnam6"}
+{"time":"2025-07-16T12:05:41.335003+08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2025-07-16T12:05:41.335874+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-07-16T12:05:43.297382+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T12:05:57.465875+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.025766167,"progress":"47B/47B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.025674084,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-07-16T12:05:58.797493+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T12:05:59.070831+08:00","level":"INFO","msg":"stream: closing","id":"um9lnam6"}
+{"time":"2025-07-16T12:05:59.071106+08:00","level":"INFO","msg":"handler: closed","stream_id":"um9lnam6"}
+{"time":"2025-07-16T12:05:59.071169+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"um9lnam6"}
+{"time":"2025-07-16T12:05:59.071195+08:00","level":"INFO","msg":"sender: closed","stream_id":"um9lnam6"}
+{"time":"2025-07-16T12:05:59.071403+08:00","level":"INFO","msg":"stream: closed","id":"um9lnam6"}

@@ -1,0 +1,41 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Traceback (most recent call last):
+  File "/Users/rishabhkumar/Kernel-Experiments/betaprime-experiments/src/helpers/preprocess_wandb.py", line 39, in <module>
+    preprocess_and_upload_training_data()
+  File "/Users/rishabhkumar/Kernel-Experiments/betaprime-experiments/src/helpers/preprocess_wandb.py", line 35, in preprocess_and_upload_training_data
+    wandb.log({"cov_train": plt})
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 398, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 456, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 443, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1987, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1710, in _log
+    self._partial_history_callback(data, step, commit)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 398, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1537, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 682, in publish_partial_history
+    data = history_dict_to_json(run, data, step=user_step, ignore_copy_err=True)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/data_types/utils.py", line 54, in history_dict_to_json
+    payload[key] = val_to_json(
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/data_types/utils.py", line 88, in val_to_json
+    val = Plotly.make_plot_media(val)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/sdk/data_types/plotly.py", line 49, in make_plot_media
+    val = util.matplotlib_to_plotly(val)
+  File "/Users/rishabhkumar/miniconda3/envs/bci_env/lib/python3.10/site-packages/wandb/util.py", line 498, in matplotlib_to_plotly
+    return tools.mpl_to_plotly(obj)
+  File "/Users/rishabhkumar/.local/lib/python3.10/site-packages/plotly/tools.py", line 111, in mpl_to_plotly
+    matplotlylib.Exporter(renderer).run(fig)
+  File "/Users/rishabhkumar/.local/lib/python3.10/site-packages/plotly/matplotlylib/mplexporter/exporter.py", line 53, in run
+    self.crawl_fig(fig)
+  File "/Users/rishabhkumar/.local/lib/python3.10/site-packages/plotly/matplotlylib/mplexporter/exporter.py", line 124, in crawl_fig
+    self.crawl_ax(ax)
+  File "/Users/rishabhkumar/.local/lib/python3.10/site-packages/plotly/matplotlylib/mplexporter/exporter.py", line 146, in crawl_ax
+    self.draw_collection(ax, collection)
+  File "/Users/rishabhkumar/.local/lib/python3.10/site-packages/plotly/matplotlylib/mplexporter/exporter.py", line 289, in draw_collection
+    offset_order = offset_dict[collection.get_offset_position()]
+AttributeError: 'QuadMesh' object has no attribute 'get_offset_position'

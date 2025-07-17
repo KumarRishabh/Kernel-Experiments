@@ -1,0 +1,17 @@
+{"time":"2025-07-16T11:58:15.554209+08:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T11:58:16.84029+08:00","level":"INFO","msg":"stream: created new stream","id":"7px3sc83"}
+{"time":"2025-07-16T11:58:16.840434+08:00","level":"INFO","msg":"stream: started","id":"7px3sc83"}
+{"time":"2025-07-16T11:58:16.840507+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7px3sc83"}
+{"time":"2025-07-16T11:58:16.840817+08:00","level":"INFO","msg":"sender: started","stream_id":"7px3sc83"}
+{"time":"2025-07-16T11:58:16.840852+08:00","level":"INFO","msg":"handler: started","stream_id":"7px3sc83"}
+{"time":"2025-07-16T11:58:17.988174+08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2025-07-16T11:58:17.993514+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-07-16T11:58:20.448269+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T11:59:16.9935+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T11:59:21.144774+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.726564875,"progress":"712B/712B"},{"desc":"uploading config.yaml","runtime_seconds":0.454719625,"progress":"1.6KB/1.6KB"}],"total_operations":2}}
+{"time":"2025-07-16T11:59:21.717689+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T11:59:22.040567+08:00","level":"INFO","msg":"stream: closing","id":"7px3sc83"}
+{"time":"2025-07-16T11:59:22.04071+08:00","level":"INFO","msg":"sender: closed","stream_id":"7px3sc83"}
+{"time":"2025-07-16T11:59:22.040802+08:00","level":"INFO","msg":"handler: closed","stream_id":"7px3sc83"}
+{"time":"2025-07-16T11:59:22.040847+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7px3sc83"}
+{"time":"2025-07-16T11:59:22.040954+08:00","level":"INFO","msg":"stream: closed","id":"7px3sc83"}

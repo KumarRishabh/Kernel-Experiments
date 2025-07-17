@@ -1,0 +1,16 @@
+{"time":"2025-07-16T08:54:02.371894+08:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T08:54:03.420575+08:00","level":"INFO","msg":"stream: created new stream","id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:03.420764+08:00","level":"INFO","msg":"stream: started","id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:03.420917+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:03.421011+08:00","level":"INFO","msg":"handler: started","stream_id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:03.421044+08:00","level":"INFO","msg":"sender: started","stream_id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:03.92135+08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2025-07-16T08:54:03.922848+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-07-16T08:54:05.939747+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T08:54:10.960929+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.72287975,"progress":"2.0KB/2.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.377704416,"progress":"1.5KB/1.5KB"}],"total_operations":2}}
+{"time":"2025-07-16T08:54:11.538033+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T08:54:11.855999+08:00","level":"INFO","msg":"stream: closing","id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:11.856262+08:00","level":"INFO","msg":"handler: closed","stream_id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:11.856399+08:00","level":"INFO","msg":"sender: closed","stream_id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:11.856364+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"c2d5zyhj"}
+{"time":"2025-07-16T08:54:11.856505+08:00","level":"INFO","msg":"stream: closed","id":"c2d5zyhj"}

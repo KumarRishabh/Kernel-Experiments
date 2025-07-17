@@ -1,0 +1,47 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        code_path: code/betaprime-experiments/src/helpers/preprocess_wandb.py
+        e:
+            qkdxgwf0zdkjw6l0kiaky0wes685rhd0:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 7
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "5368709120"
+                codePath: betaprime-experiments/src/helpers/preprocess_wandb.py
+                codePathLocal: preprocess_wandb.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "230616969216"
+                email: rish030798@gmail.com
+                executable: /Users/rishabhkumar/miniconda3/envs/bci_env/bin/python
+                git:
+                    commit: 59a42db7ed98bc0ed88906366434234afef3e2a5
+                    remote: https://github.com/KumarRishabh/Kernel-Experiments.git
+                host: Rishabhs-MacBook-Air-5.local
+                memory:
+                    total: "8589934592"
+                os: macOS-15.5-arm64-arm-64bit
+                program: /Users/rishabhkumar/Kernel-Experiments/betaprime-experiments/src/helpers/preprocess_wandb.py
+                python: CPython 3.10.8
+                root: /Users/rishabhkumar/Kernel-Experiments/betaprime-experiments/src/helpers
+                startedAt: "2025-07-16T04:45:41.976388Z"
+                writerId: qkdxgwf0zdkjw6l0kiaky0wes685rhd0
+        m: []
+        python_version: 3.10.8
+        t:
+            "3":
+                - 2
+            "4": 3.10.8
+            "5": 0.21.0
+            "8":
+                - 2
+            "12": 0.21.0
+            "13": darwin-arm64

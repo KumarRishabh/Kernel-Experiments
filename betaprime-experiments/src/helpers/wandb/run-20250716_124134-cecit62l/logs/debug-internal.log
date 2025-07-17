@@ -1,0 +1,14 @@
+{"time":"2025-07-16T12:41:35.259214+08:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T12:41:35.653583+08:00","level":"INFO","msg":"stream: created new stream","id":"cecit62l"}
+{"time":"2025-07-16T12:41:35.653628+08:00","level":"INFO","msg":"stream: started","id":"cecit62l"}
+{"time":"2025-07-16T12:41:35.653954+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cecit62l"}
+{"time":"2025-07-16T12:41:35.65435+08:00","level":"INFO","msg":"handler: started","stream_id":"cecit62l"}
+{"time":"2025-07-16T12:41:35.654416+08:00","level":"INFO","msg":"sender: started","stream_id":"cecit62l"}
+{"time":"2025-07-16T12:41:35.981467+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-07-16T12:41:38.246991+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T12:41:47.363898+08:00","level":"INFO","msg":"stream: closing","id":"cecit62l"}
+{"time":"2025-07-16T12:41:48.453898+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T12:41:48.938536+08:00","level":"INFO","msg":"handler: closed","stream_id":"cecit62l"}
+{"time":"2025-07-16T12:41:48.938567+08:00","level":"INFO","msg":"sender: closed","stream_id":"cecit62l"}
+{"time":"2025-07-16T12:41:48.938592+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cecit62l"}
+{"time":"2025-07-16T12:41:48.939069+08:00","level":"INFO","msg":"stream: closed","id":"cecit62l"}

@@ -1,0 +1,35 @@
+{
+  "os":  "macOS-15.5-arm64-i386-64bit",
+  "python":  "CPython 3.10.8",
+  "startedAt":  "2025-07-16T04:00:36.345314Z",
+  "program":  "<python with no main file>",
+  "git":  {
+    "remote":  "https://github.com/KumarRishabh/Kernel-Experiments.git",
+    "commit":  "59a42db7ed98bc0ed88906366434234afef3e2a5"
+  },
+  "email":  "rish030798@gmail.com",
+  "root":  "/Users/rishabhkumar/Kernel-Experiments/betaprime-experiments",
+  "host":  "Rishabhs-MacBook-Air-5.local",
+  "executable":  "/Users/rishabhkumar/miniconda3/envs/bci_env/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "234046943232"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "apple":  {
+    "name":  "Unknown",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  7,
+    "memoryGb":  8,
+    "swapTotalBytes":  "7516192768",
+    "ramTotalBytes":  "8589934592"
+  },
+  "writerId":  "b5acinkhy1p266uagx0ba21fcji3bgrr"
+}

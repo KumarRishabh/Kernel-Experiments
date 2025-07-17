@@ -1,0 +1,15 @@
+{"time":"2025-07-16T12:45:42.473079+08:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T12:45:43.011353+08:00","level":"INFO","msg":"stream: created new stream","id":"2ugujsre"}
+{"time":"2025-07-16T12:45:43.011402+08:00","level":"INFO","msg":"stream: started","id":"2ugujsre"}
+{"time":"2025-07-16T12:45:43.011618+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"2ugujsre"}
+{"time":"2025-07-16T12:45:43.012096+08:00","level":"INFO","msg":"handler: started","stream_id":"2ugujsre"}
+{"time":"2025-07-16T12:45:43.012128+08:00","level":"INFO","msg":"sender: started","stream_id":"2ugujsre"}
+{"time":"2025-07-16T12:45:43.366311+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-07-16T12:45:47.822769+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T12:45:56.14783+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/cov_train_1_d1a45d268f9a1e6b6b41.png","runtime_seconds":0.617200708,"progress":"35.2KB/35.2KB"},{"desc":"uploading output.log","runtime_seconds":0.6165765,"progress":"47B/47B"},{"desc":"uploading config.yaml","runtime_seconds":0.306439584,"progress":"1.8KB/1.8KB"}],"total_operations":3}}
+{"time":"2025-07-16T12:45:57.136189+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T12:45:57.445533+08:00","level":"INFO","msg":"stream: closing","id":"2ugujsre"}
+{"time":"2025-07-16T12:45:57.445734+08:00","level":"INFO","msg":"handler: closed","stream_id":"2ugujsre"}
+{"time":"2025-07-16T12:45:57.445808+08:00","level":"INFO","msg":"sender: closed","stream_id":"2ugujsre"}
+{"time":"2025-07-16T12:45:57.445827+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2ugujsre"}
+{"time":"2025-07-16T12:45:57.445938+08:00","level":"INFO","msg":"stream: closed","id":"2ugujsre"}

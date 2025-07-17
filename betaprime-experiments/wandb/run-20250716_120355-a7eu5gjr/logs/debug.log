@@ -1,0 +1,5 @@
+2025-07-16 12:03:55,054 INFO    MainThread:76018 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/rishabhkumar/Kernel-Experiments/betaprime-experiments/wandb/run-20250716_120355-a7eu5gjr/logs/debug.log
+2025-07-16 12:03:55,055 INFO    MainThread:76018 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/rishabhkumar/Kernel-Experiments/betaprime-experiments/wandb/run-20250716_120355-a7eu5gjr/logs/debug-internal.log
+2025-07-16 12:03:55,055 INFO    MainThread:76018 [wandb_init.py:init():830] calling init triggers
+2025-07-16 12:03:55,055 INFO    MainThread:76018 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}

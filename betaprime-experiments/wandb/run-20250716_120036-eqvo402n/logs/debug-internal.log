@@ -1,0 +1,18 @@
+{"time":"2025-07-16T12:00:36.356216+08:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T12:00:36.746399+08:00","level":"INFO","msg":"stream: created new stream","id":"eqvo402n"}
+{"time":"2025-07-16T12:00:36.746453+08:00","level":"INFO","msg":"stream: started","id":"eqvo402n"}
+{"time":"2025-07-16T12:00:36.746455+08:00","level":"INFO","msg":"handler: started","stream_id":"eqvo402n"}
+{"time":"2025-07-16T12:00:36.746468+08:00","level":"INFO","msg":"sender: started","stream_id":"eqvo402n"}
+{"time":"2025-07-16T12:00:36.74648+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"eqvo402n"}
+{"time":"2025-07-16T12:00:37.041082+08:00","level":"WARN","msg":"handleCodeSave: program relative path is empty"}
+{"time":"2025-07-16T12:00:37.042578+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-07-16T12:00:39.075563+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T12:03:57.108314+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T12:04:28.584507+08:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-07-16T12:04:34.091861+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/images/cov_train_5_31db1b47f19d58a7c0d0.png","runtime_seconds":0.711316709,"progress":"12.4KB/12.4KB"},{"desc":"uploading output.log","runtime_seconds":0.7106125,"progress":"1.0KB/1.0KB"},{"desc":"uploading config.yaml","runtime_seconds":0.458217208,"progress":"1.6KB/1.6KB"}],"total_operations":3}}
+{"time":"2025-07-16T12:04:34.692388+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T12:04:34.982406+08:00","level":"INFO","msg":"stream: closing","id":"eqvo402n"}
+{"time":"2025-07-16T12:04:34.982601+08:00","level":"INFO","msg":"handler: closed","stream_id":"eqvo402n"}
+{"time":"2025-07-16T12:04:34.982647+08:00","level":"INFO","msg":"sender: closed","stream_id":"eqvo402n"}
+{"time":"2025-07-16T12:04:34.982696+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"eqvo402n"}
+{"time":"2025-07-16T12:04:34.983015+08:00","level":"INFO","msg":"stream: closed","id":"eqvo402n"}
